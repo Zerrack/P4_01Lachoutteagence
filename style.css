@@ -333,8 +333,11 @@ a:hover {
 }
 
 .nav > li a:hover,
-.nav > li a:focus {
+.nav > li a:focus{
     background: transparent;
+}
+a:focus ,button:focus{
+    border:2px solid #5563F6;
 }
 
 .navbar-toggle {
@@ -829,7 +832,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
